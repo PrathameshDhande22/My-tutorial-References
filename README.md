@@ -3,6 +3,7 @@ This Repository contains my learned new technology refereneces which i can refer
 <br />
 ## I have Learned :
 1. Numpy
+2. Pandas
 <br />
 Uploaded the Notebook tutorial
 <br 
