@@ -4,6 +4,7 @@ This Repository contains my learned new technology refereneces which i can refer
 ## I have Learned :
 1. Numpy
 2. Pandas
+3. Matplotlib 
 
 ## Stuff Contains :
 1. Phone&email validator using re module
