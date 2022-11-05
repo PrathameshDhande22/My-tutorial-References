@@ -10,6 +10,7 @@ This Repository contains my learned new technology refereneces which i can refer
 ## Stuff Contains :
 1. Phone&email validator using re module
 2. Naive Algorithm implemented in python
+3. Data Warehouse and data mining lab code are available
 <br />
 Uploaded the Notebook tutorial
 <br/>
