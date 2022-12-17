@@ -7,7 +7,8 @@ This Repository contains my learned new technology refereneces which i can refer
 1. Numpy
 2. Pandas
 3. Matplotlib 
-4. Click CLI Maker
+4. Seaborn
+5. Click CLI Maker
 
 ## Stuff Contains :
 1. Phone&email validator using re module
