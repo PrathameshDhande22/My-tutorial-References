@@ -15,6 +15,7 @@ This Repository contains my learned new technology refereneces which i can refer
 3. Data Warehouse and data mining lab code are available
 4. Advanced Python topics.
 <br />
+
 **Uploaded the Notebook tutorial**
 <br/>
 
@@ -23,7 +24,7 @@ This Repository contains my learned new technology refereneces which i can refer
 <br/>
 
 ## Download My Notes :
-1. Data Visualization in Python : <a href="https://www.mediafire.com/file/4fl2hpwdls4pips/Data_Visualization.pdf/file"><img src="https://user-images.githubusercontent.com/87264935/194303514-981bb831-c233-4027-b56a-9b996b348aaf.png" width="180" ></a>
+1. Data Visualization in Python : <a href="https://www.mediafire.com/file/4fl2hpwdls4pips/Data_Visualization.pdf/file"><img src="https://user-images.githubusercontent.com/87264935/194303514-981bb831-c233-4027-b56a-9b996b348aaf.png" width="180" height="20"></a>
 2. Pygame Tutorial : <a href="https://www.mediafire.com/file/uw4ci9ux1w0xaq3/Pygame_Tutorial.pdf/file"><img src="https://user-images.githubusercontent.com/87264935/194303514-981bb831-c233-4027-b56a-9b996b348aaf.png" width="180" ></a>
 3. Python Turtle Tutorial : <a href="https://www.mediafire.com/file/utbzd6imrqaovdn/Python_turtle_tutorial.pdf/file"><img src="https://user-images.githubusercontent.com/87264935/194303514-981bb831-c233-4027-b56a-9b996b348aaf.png" width="180" ></a>
 4. C Programming Notes : <a href="https://www.mediafire.com/file/3c3dxv7dvh43pn2/C_Programming_Notes.pdf/file"><img src="https://user-images.githubusercontent.com/87264935/194303514-981bb831-c233-4027-b56a-9b996b348aaf.png" width="180" ></a>
