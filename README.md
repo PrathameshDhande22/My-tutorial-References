@@ -9,6 +9,7 @@ This Repository contains my learned new technology refereneces which i can refer
 3. Matplotlib 
 4. Seaborn
 5. Click CLI Maker
+6. Python-telegram-bot Module
 
 ## Stuff Contains :
 1. Phone&email validator using re module
