@@ -23,6 +23,7 @@ This Repository contains my learned new technology refereneces which i can refer
 
 ## More Tutorial References:
 1. Data Visualization Tutorial with Jupyter Notebook : <a href="https://github.com/PrathameshDhande22/Data-Visualization-Tutorial">Click Here</a>
+2. Java Tutorial : <a href="https://github.com/PrathameshDhande22/Java-Tutorial">Click Here</a>
 <br/>
 
 ## Download My Notes :
