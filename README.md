@@ -16,6 +16,7 @@ This Repository contains my learned new technology refereneces which i can refer
 2. Naive Algorithm implemented in python
 3. Data Warehouse and data mining lab code are available
 4. Advanced Python topics.
+5. Python Revision Tutorial
 <br />
 
 **Uploaded the Notebook tutorial**
@@ -24,6 +25,7 @@ This Repository contains my learned new technology refereneces which i can refer
 ## More Tutorial References:
 1. Data Visualization Tutorial with Jupyter Notebook : <a href="https://github.com/PrathameshDhande22/Data-Visualization-Tutorial">Click Here</a>
 2. Java Tutorial : <a href="https://github.com/PrathameshDhande22/Java-Tutorial">Click Here</a>
+3. Web Development : <a href="https://github.com/PrathameshDhande22/Web-Development-Tutorial">Click Here</a>
 <br/>
 
 ## Download My Notes :
