@@ -17,6 +17,7 @@ This Repository contains my learned new technology refereneces which i can refer
 3. Data Warehouse and data mining lab code are available
 4. Advanced Python topics.
 5. Python Revision Tutorial
+6. MySQL Tutorial
 <br />
 
 **Uploaded the Notebook tutorial**
