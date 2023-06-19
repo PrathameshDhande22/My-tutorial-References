@@ -1,0 +1,81 @@
+test> show dbs
+admin    40.00 KiB
+config  108.00 KiB
+local    72.00 KiB
+test> use Prathamesh
+switched to db Prathamesh
+Prathamesh> db
+Prathamesh
+Prathamesh> db.employee
+Prathamesh.employee
+Prathamesh> show collections
+
+Prathamesh> show dbs
+admin    40.00 KiB
+config  108.00 KiB
+local    72.00 KiB
+Prathamesh> db.employee({"name":"Prathamesh","Rollno":8})
+TypeError: db.employee is not a function
+Prathamesh> db.employee.insertOne({"name":"Prathamesh","Rollno":8})
+{
+  acknowledged: true,
+  insertedId: ObjectId("648d948556017543515169f2")
+}
+Prathamesh> show dbs
+Prathamesh    8.00 KiB
+admin        40.00 KiB
+config      108.00 KiB
+local        72.00 KiB
+Prathamesh> show collections
+employee
+Prathamesh> db.employee
+Prathamesh.employee
+Prathamesh> show collections
+employee
+Prathamesh> db.employee.insertMany([])
+MongoInvalidArgumentError: Invalid BulkOperation, Batch cannot be empty
+Prathamesh> db.employee.insertMany([{name:"Sushant",rollno:1},{name:"Steve",rollno:3},{name:"Alex",rollno:4}])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("648d981056017543515169f3"),
+    '1': ObjectId("648d981056017543515169f4"),
+    '2': ObjectId("648d981056017543515169f5")
+  }
+}
+Prathamesh> db.employee.find()
+[
+  {
+    _id: ObjectId("648d948556017543515169f2"),
+    name: 'Prathamesh',
+    Rollno: 8
+  },
+  { _id: ObjectId("648d959fbed23edd107b28cf"), name: 'Het', rollno: 4 },
+  {
+    _id: ObjectId("648d981056017543515169f3"),
+    name: 'Sushant',
+    rollno: 1
+  },
+  {
+    _id: ObjectId("648d981056017543515169f4"),
+    name: 'Steve',
+    rollno: 3
+  },
+  {
+    _id: ObjectId("648d981056017543515169f5"),
+    name: 'Alex',
+    rollno: 4
+  }
+]
+Prathamesh> db.employee.find({rollno:5})
+
+Prathamesh> db.employee.find({rollno:4})
+[
+  { _id: ObjectId("648d959fbed23edd107b28cf"), name: 'Het', rollno: 4 },
+  {
+    _id: ObjectId("648d981056017543515169f5"),
+    name: 'Alex',
+    rollno: 4
+  }
+]
+Prathamesh>
