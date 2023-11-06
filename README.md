@@ -22,6 +22,7 @@ This Repository contains my learned new technology refereneces which i can refer
 6. MySQL Tutorial
 7. MongoDB Tutorial
 8. R Tutorial
+9. Big Data Analytics Lab Code are available
 <br />
 
 **Uploaded the Notebook tutorial**
