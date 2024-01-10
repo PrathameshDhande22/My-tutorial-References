@@ -12,6 +12,7 @@ This Repository contains my learned new technology refereneces which i can refer
 6. Python-telegram-bot Module
 7. SQlAlchemy ORM Module
 8. MongoEngine ORM Module
+9. Python Poetry
 
 ## Stuff Contains :
 1. Phone&email validator using re module
@@ -23,6 +24,7 @@ This Repository contains my learned new technology refereneces which i can refer
 7. MongoDB Tutorial
 8. R Tutorial
 9. Big Data Analytics Lab Code are available
+10. Python Poetry Tutorial
 <br />
 
 **Uploaded the Notebook tutorial**
