@@ -1,9 +1,6 @@
-<div style="display:flex;justify-content:center;align-items:center;width:100%;gap:10px;padding:10px 0px;border:rgb(0, 138, 224) 3px solid;border-radius:50px;color:rgb(0, 185, 235)">
-<img src="https://python-poetry.org/images/logo-origami.svg" height=80/>
-<div style="font-size:23px;font-weight:700">Python Poetry</div>
-</div>
-
 ## Python Poetry Tutorial
+
+<img src="https://python-poetry.org/images/logo-origami.svg" height=80/>
 
 ### About Poetry
 
@@ -11,9 +8,7 @@ Poetry is a tool for dependency management and packaging in Python. It allows yo
 
 In simple terms, Poetry is a simple tool for managing the Dependencies in python. Instead of using the requirements.txt file it's another simple way.
 
-<div style="text-align:center;font-size:20px;font-weight:600;color:orange;">
-Forget Pip use Poetry
-</div>
+### Forget Pip use Poetry
 
 ### Usage
 
