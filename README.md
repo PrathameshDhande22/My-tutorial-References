@@ -25,6 +25,7 @@ This Repository contains my learned new technology refereneces which i can refer
 8. R Tutorial
 9. Big Data Analytics Lab Code are available
 10. Python Poetry Tutorial
+11. Distributed Computing Lab Code
 <br />
 
 **Uploaded the Notebook tutorial**
