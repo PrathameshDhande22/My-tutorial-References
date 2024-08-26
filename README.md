@@ -26,6 +26,7 @@ This Repository contains my learned new technology refereneces which i can refer
 9. Big Data Analytics Lab Code are available
 10. Python Poetry Tutorial
 11. Distributed Computing Lab Code
+12. MS SQL Tutorial
 <br />
 
 **Uploaded the Notebook tutorial**
@@ -35,6 +36,7 @@ This Repository contains my learned new technology refereneces which i can refer
 1. Data Visualization Tutorial with Jupyter Notebook : <a href="https://github.com/PrathameshDhande22/Data-Visualization-Tutorial">Click Here</a>
 2. Java Tutorial : <a href="https://github.com/PrathameshDhande22/Java-Tutorial">Click Here</a>
 3. Web Development : <a href="https://github.com/PrathameshDhande22/Web-Development-Tutorial">Click Here</a>
+4. C# Tutorial : <a href="https://github.com/PrathameshDhande22/C-Sharp-Tutorial">Click Here</a>
 <br/>
 
 ## Download My Notes :
