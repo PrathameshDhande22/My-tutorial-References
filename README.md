@@ -13,6 +13,9 @@ This Repository contains my learned new technology refereneces which i can refer
 7. SQlAlchemy ORM Module
 8. MongoEngine ORM Module
 9. Python Poetry
+10. MS SQL
+11. LINQ
+12. Dapper
 
 ## Stuff Contains :
 1. Phone&email validator using re module
@@ -28,6 +31,7 @@ This Repository contains my learned new technology refereneces which i can refer
 11. Distributed Computing Lab Code
 12. MS SQL Tutorial
 13. LINQ Tutorial
+14. Dapper Tutorial
 <br />
 
 **Uploaded the Notebook tutorial**
