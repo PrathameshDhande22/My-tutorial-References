@@ -27,6 +27,7 @@ This Repository contains my learned new technology refereneces which i can refer
 10. Python Poetry Tutorial
 11. Distributed Computing Lab Code
 12. MS SQL Tutorial
+13. LINQ Tutorial
 <br />
 
 **Uploaded the Notebook tutorial**
