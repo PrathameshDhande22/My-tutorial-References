@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="newdatabase" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SS-2024-05-015\PRATHAMESH;Initial Catalog=newdatabase;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="LINQTOSQL.Properties.Settings" SettingsPropertyName="newdatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Employees" Member="Employees">
+    <Type Name="Employee" Id="ID1">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Salary" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Department_Employee" Member="Department" ThisKey="DepartmentId" OtherKey="ID" Type="Department" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Departments" Member="Departments">
+    <Type Name="Department">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Department_Employee" Member="Employees" ThisKey="ID" OtherKey="DepartmentId" Type="Employee" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Student" Member="Students">
+    <Type Name="Student">
+      <Column Name="id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="rollno" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="school" Type="System.String" DbType="NVarChar(70)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.getEmployees" Method="getEmployees">
+    <ElementType IdRef="ID1" />
+  </Function>
+  <Function Name="dbo.getTotalEmployeeCount" Method="getTotalEmployeeCount">
+    <Parameter Name="gender" Type="System.String" DbType="NVarChar(40)" />
+    <Parameter Name="count" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.spThrowError" Method="spThrowError">
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.fnGetCount" Method="fnGetCount" IsComposable="true">
+    <Parameter Name="Gender" Parameter="gender" Type="System.String" DbType="NVarChar(40)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
