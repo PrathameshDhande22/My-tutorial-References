@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eccd95f04f9d42db98a6b47575c809a6" Name="Diagram1" DisplayType="true">
+        <EntityTypeShape EntityType="DataConnection.Course" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataConnection.Department" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataConnection.Employee" Width="1.75" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataConnection.Student" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="DataConnection.FK__Employees__Depar__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="DataConnection.StudentCourse" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DataConnection.StudentCheck" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="DataConnection.EmployeeRole" Width="1.5" PointX="5.25" PointY="3.625" FillColor="Lime" />
+        <EntityTypeShape EntityType="DataConnection.vw_GetEmployeeWithDept" Width="1.5" PointX="7.625" PointY="2.125" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
