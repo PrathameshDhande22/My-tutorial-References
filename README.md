@@ -44,6 +44,7 @@ This Repository contains my learned new technology refereneces which i can refer
 2. Java Tutorial : <a href="https://github.com/PrathameshDhande22/Java-Tutorial">Click Here</a>
 3. Web Development : <a href="https://github.com/PrathameshDhande22/Web-Development-Tutorial">Click Here</a>
 4. C# Tutorial : <a href="https://github.com/PrathameshDhande22/C-Sharp-Tutorial">Click Here</a>
+5. Angular : **Comming Soon**
 <br/>
 
 ## Notes for the Languages and Frameworks will be available when website get's Ready
