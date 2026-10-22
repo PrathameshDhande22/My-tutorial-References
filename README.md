@@ -16,7 +16,8 @@ This Repository contains my learned new technology refereneces which i can refer
 10. MS SQL
 11. LINQ
 12. Dapper
-13. Entity Framework
+13. Entity Framework 6
+14. Entity Framework Core
 
 ## Stuff Contains :
 1. Phone&email validator using re module
@@ -34,6 +35,7 @@ This Repository contains my learned new technology refereneces which i can refer
 13. LINQ Tutorial
 14. Dapper Tutorial
 15. Entity Framework Tutorial
+16. Entity Framework Core Tutorial
 <br />
 
 **Uploaded the Notebook tutorial**
